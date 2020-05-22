@@ -1,4 +1,4 @@
-.logon-container{
+.new-incident-container{
     width: 100%;
     max-width: 1120px;
     height: 100vh;
@@ -9,7 +9,7 @@
     justify-content: center;
 
 }
-.logon-container .content{
+.new-incident-container .content{
     width: 100%;
     padding: 96px;
     background: #f0f0f5;
@@ -21,29 +21,28 @@
     align-items: center;
 }
 
-.logon-container .content section{
+.new-incident-container .content section{
     width: 100%;
     max-width: 380px;
 }
 
-.logon-container .content section h1{
+.new-incident-container .content section h1{
     margin: 64px 0 32px;
     font-size: 32px;
 }
 
-.logon-container .content section p{
+.new-incident-container .content section p{
     font-size: 18px;
     color: 737380;
     line-height: 32px;
 }
 
-.logon-container .content form{
+.new-incident-container .content form{
     width: 100%;
     max-width: 450px;
 }
 
-.logon-container .content form input{
+.new-incident-container .content form input,
+.new-incident-container .content form textarea{
     margin-top: 8px;
 }
-
- 
